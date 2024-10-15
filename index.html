@@ -3,79 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datos Generales - Daniela Sofia Fernandez Galdos</title>
-    <link <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+    <title>Mi Página Inspirada en Sanrio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Encabezado -->
-    <header class="encabezado">
-        <h1>Bienvenido a mi página web</h1>
-    </header>
+    <!-- Video de fondo -->
+    <video autoplay muted loop id="videoFondo">
+        <source src="ruta-de-tu-video.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
 
-    <!-- Menú de Navegación -->
-    <nav class="menu-navegacion">
-        <ul>
-            <li><a href="#datos-generales">Datos Generales</a></li>
-            <li><a href="#carrera">Carrera</a></li>
-            <li><a href="#cursos">Cursos</a></li>
-            <li><a href="#companeros">Compañeros</a></li>
-        </ul>
-    </nav>
+    <!-- Contenedor principal de la página -->
+    <div class="contenido-principal">
+        <header class="encabezado">
+            <h1>Mi Página Inspirada en Sanrio</h1>
+        </header>
 
-    <!-- Secciones de Contenido -->
-    <main class="contenido-principal">
+        <!-- Menú de navegación -->
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="#datos-generales">Datos Generales</a></li>
+                <li><a href="#carrera">Carrera</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#companeros">Compañeros</a></li>
+            </ul>
+        </nav>
 
-        <!-- Datos Generales -->
-        <section id="datos-generales" class="seccion">
-            <h2>Datos Generales</h2>
-            <div class="contenido-seccion">
-                <p><strong>Nombre:</strong> Daniela Sofia Fernandez Galdos</p>
-                <p><strong>Edad:</strong> 18 años</p>
-                <p><strong>Ciudad:</strong> Arequipa</p>
-                <p><strong>Email:</strong> daniela.fernandez@ucsp.edu.pe</p>
-            </div>
-        </section>
+        <!-- Secciones de la página -->
+        <main>
+            <!-- Datos Generales -->
+            <section id="datos-generales" class="seccion">
+                <h2>Datos Generales</h2>
+                <p><strong>Nombre:</strong> [Tu Nombre]</p>
+                <p><strong>Edad:</strong> [Tu Edad]</p>
+                <p><strong>Ciudad:</strong> [Tu Ciudad]</p>
+                <p><strong>Email:</strong> [Tu Correo Electrónico]</p>
+            </section>
 
-        <!-- Carrera -->
-        <section id="carrera" class="seccion">
-            <h2>Carrera</h2>
-            <div class="contenido-seccion">
-                <p>Actualmente estoy cursando la carrera de <strong>Ciencias de la Computación</strong> en la Universidad <strong>Católica San Pablo</strong>.</p>
-            </div>
-        </section>
+            <!-- Carrera -->
+            <section id="carrera" class="seccion">
+                <h2>Carrera</h2>
+                <p>Actualmente estoy cursando la carrera de <strong>[Tu Carrera]</strong> en la universidad <strong>[Nombre de tu universidad]</strong>.</p>
+            </section>
 
-        <!-- Cursos Realizados -->
-        <section id="cursos" class="seccion">
-            <h2>Cursos Realizados</h2>
-            <div class="contenido-seccion">
+            <!-- Cursos Realizados -->
+            <section id="cursos" class="seccion">
+                <h2>Cursos Realizados</h2>
                 <ul>
-                    <li>Curso de Programación de Videojuegos</li>
-                    <li>Curso de Metodología del Estudio</li>
-                    <li>Curso de Introducción a la vida Universitaria</li>
+                    <li>Curso de HTML <img src="ruta-de-tu-imagen/pompompurin1.gif" alt="Pompompurin bailando" class="pompompurin-img"></li>
+                    <li>Curso de CSS <img src="ruta-de-tu-imagen/pompompurin2.png" alt="Pompompurin feliz" class="pompompurin-img"></li>
+                    <li>Curso de JavaScript <img src="ruta-de-tu-imagen/pompompurin3.png" alt="Pompompurin asombrado" class="pompompurin-img"></li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <!-- Compañeros de Grupo -->
-        <section id="companeros" class="seccion">
-            <h2>Compañeros de Grupo</h2>
-            <div class="contenido-seccion">
+            <!-- Compañeros de Grupo -->
+            <section id="companeros" class="seccion">
+                <h2>Compañeros de Grupo</h2>
                 <ul>
-                    <li><a href="https://guspinkman.github.io/Gustavo-Adolfo-Alpaca-Ticona/" target="_blank">Gustavo Alpaca</a></li>
+                    <li><a href="https://github.com/[nombre-usuario1]" target="_blank">[Nombre del compañero 1]</a></li>
                     <li><a href="https://github.com/[nombre-usuario2]" target="_blank">[Nombre del compañero 2]</a></li>
                     <li><a href="https://github.com/[nombre-usuario3]" target="_blank">[Nombre del compañero 3]</a></li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </main>
 
-    </main>
-
-    <!-- Pie de página -->
-    <footer class="pie-pagina">
-        <p>© 2024 Daniela Sofia</p>
-    </footer>
+        <!-- Pie de página -->
+        <footer class="pie-pagina">
+            <p>© 2024 Mi Página Inspirada en Sanrio</p>
+        </footer>
+    </div>
 
 </body>
 </html>
