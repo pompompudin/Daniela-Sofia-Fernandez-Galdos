@@ -19,33 +19,9 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
-/* Cuadros de texto con fondo suave y bordes redondeados */
-.seccion {
-    background-color: rgba(255, 192, 203, 0.8); /* Rosado pastel con transparencia */
-    padding: 20px;
-    margin: 30px auto;
-    border-radius: 15px;
-    color: #333; /* Texto oscuro para un buen contraste */
-    max-width: 900px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para destacar */
-}
-
-/* Opción alternativa con lavanda claro */
-.seccion-alternativa {
-    background-color: rgba(230, 230, 250, 0.8); /* Lavanda claro con transparencia */
-    padding: 20px;
-    margin: 30px auto;
-    border-radius: 15px;
-    color: #333;
-    max-width: 900px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-}
 
 /* Otros estilos para el encabezado, menús, etc. permanecen igual */
 
-}
 
 /* Contenedor principal */
 .contenido-principal {
@@ -92,7 +68,7 @@ body {
 
 .menu-navegacion ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #faf42e;
     font-family: 'Petit Formal Script', cursive;
     font-weight: bold;
     font-size: 1.2rem;
@@ -105,12 +81,28 @@ body {
 }
 
 /* Secciones */
+/* Cuadros de texto con fondo suave y bordes redondeados */
 .seccion {
-    background-color: rgba(255, 228, 225, 0.8); /* Fondo semitransparente */
+    background-color: rgba(255, 192, 203, 0.8); /* Rosado pastel con transparencia */
     padding: 20px;
-    margin: 30px 0;
+    margin: 30px auto;
+    border-radius: 15px;
+    color: #333; /* Texto oscuro para un buen contraste */
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para destacar */
+}
+
+/* Opción alternativa con lavanda claro */
+.seccion-alternativa {
+    background-color: rgba(230, 230, 250, 0.8); /* Lavanda claro con transparencia */
+    padding: 20px;
+    margin: 30px auto;
     border-radius: 15px;
     color: #333;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 /* Pie de página */
