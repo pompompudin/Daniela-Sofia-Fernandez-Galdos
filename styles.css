@@ -34,11 +34,19 @@ body, html {
     background-color: rgba(255, 182, 193, 0.8); /* Fondo semitransparente */
     padding: 20px;
     border-radius: 15px;
+    position: relative;
 }
 
 .encabezado h1 {
     font-family: 'Petit Formal Script', cursive;
     color: #fff;
+}
+
+/* GIF de Pompompurin en el encabezado */
+.gif-encabezado {
+    width: 100px; /* Ajusta el tamaño del GIF */
+    height: auto;
+    margin-top: 10px;
 }
 
 /* Menú de navegación */
@@ -74,27 +82,6 @@ body, html {
     margin: 30px 0;
     border-radius: 15px;
     color: #333;
-}
-
-.seccion h2 {
-    font-family: 'Petit Formal Script', cursive;
-    color: #ff69b4;
-    font-size: 2rem;
-    text-align: center;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-/* Imágenes de Pompompurin */
-.pompompurin-img {
-    width: 100px;
-    height: auto;
-    margin: 10px;
-    border-radius: 15px;
-    border: 3px solid #ff69b4;
 }
 
 /* Pie de página */
