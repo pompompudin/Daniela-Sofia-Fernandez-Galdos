@@ -49,7 +49,7 @@ body {
 
 /* GIF de Pompompurin en el encabezado */
 .gif-encabezado {
-    width: 100px; /* Ajusta el tamaño del GIF */
+    width: 300px; /* Ajusta el tamaño del GIF */
     height: auto;
     margin-top: 10px;
 }
@@ -68,10 +68,10 @@ body {
 
 .menu-navegacion ul li a {
     text-decoration: none;
-    color: #faf42e;
+    color: #000;
     font-family: 'Petit Formal Script', cursive;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-bottom: 2px solid transparent;
     transition: all 0.3s;
 }
