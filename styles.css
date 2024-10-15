@@ -80,10 +80,9 @@ body {
     border-bottom: 2px solid #ff69b4;
 }
 .gif-img {
-    width: 150px; /* Ajusta el tamaño de los GIFs */
+    width: 300px; /* Ajusta el tamaño de los GIFs */
     height: auto;
     border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     transition: transform 0.2s ease-in-out; /* Efecto al pasar el mouse */
 }
 
