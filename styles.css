@@ -1,51 +1,51 @@
-/* General Styles */
-body {
-    background-color: #ffe4e1; /* Fondo rosa claro */
-    background-image: url('ruta-de-tu-imagen-de-fondo.jpg'); /* Fondo decorativo */
-    background-repeat: repeat;
-    background-position: center;
-    background-attachment: fixed; /* Fija el fondo */
-    font-family: 'Questrial', sans-serif; /* Fuente general */
+/* Estilos para el video de fondo */
+#videoFondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Estilos generales */
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+    font-family: 'Questrial', sans-serif;
     color: #333;
 }
 
-/* Contenedor principal para ajustar el ancho */
+/* Contenedor principal */
 .contenido-principal {
-    max-width: 960px; /* Ajusta el ancho para hacerlo más estrecho */
-    margin: 0 auto; /* Centra el contenido */
+    position: relative;
+    z-index: 1;
+    max-width: 960px;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #fff0f5; /* Fondo suave */
-    border-radius: 10px; /* Bordes redondeados */
+    color: #fff; /* Texto blanco para mejor contraste con el video */
+    text-align: center;
 }
 
 /* Encabezado */
 .encabezado {
-    background-color: #ffb6c1; /* Fondo rosa */
-    padding: 30px;
-    text-align: center;
-    border-bottom: 5px solid #ff69b4;
+    background-color: rgba(255, 182, 193, 0.8); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .encabezado h1 {
-    font-family: 'Petit Formal Script', cursive; /* Fuente para el título */
-    color: white;
-    font-size: 3rem;
+    font-family: 'Petit Formal Script', cursive;
+    color: #fff;
 }
 
 /* Menú de navegación */
-.menu-navegacion {
-    background-color: #ffebcd;
-    padding: 15px;
-    border-bottom: 3px solid #ff69b4;
-    text-align: center;
-}
-
 .menu-navegacion ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
 }
 
 .menu-navegacion ul li {
@@ -54,9 +54,9 @@ body {
 }
 
 .menu-navegacion ul li a {
-    font-family: 'Petit Formal Script', cursive; /* Fuente para los enlaces del menú */
     text-decoration: none;
-    color: #ff69b4;
+    color: #fff;
+    font-family: 'Petit Formal Script', cursive;
     font-weight: bold;
     font-size: 1.2rem;
     border-bottom: 2px solid transparent;
@@ -69,25 +69,18 @@ body {
 
 /* Secciones */
 .seccion {
-    background-color: #ffebcd; /* Fondo color pastel */
-    border: 3px solid #ff69b4; /* Bordes rosados */
-    border-radius: 15px;
+    background-color: rgba(255, 228, 225, 0.8); /* Fondo semitransparente */
     padding: 20px;
-    margin: 30px auto; /* Espacio entre las secciones */
-    max-width: 900px; /* Ajusta el ancho de las secciones */
+    margin: 30px 0;
+    border-radius: 15px;
+    color: #333;
 }
 
 .seccion h2 {
-    font-family: 'Petit Formal Script', cursive; /* Fuente para subtítulos */
+    font-family: 'Petit Formal Script', cursive;
     color: #ff69b4;
     font-size: 2rem;
     text-align: center;
-}
-
-.contenido-seccion p, .contenido-seccion ul {
-    font-family: 'Questrial', sans-serif; /* Fuente para el contenido general */
-    font-size: 1.1rem;
-    color: #333;
 }
 
 ul {
@@ -95,31 +88,22 @@ ul {
     padding-left: 20px;
 }
 
-/* Pompompurin Section */
-.pompompurin-seccion {
-    text-align: center;
-    padding: 20px;
-    background-color: #ffe4e1; /* Fondo rosado */
-    border: 2px dashed #ff69b4; /* Borde kawaii */
-    margin: 20px 0;
-}
-
+/* Imágenes de Pompompurin */
 .pompompurin-img {
-    width: 200px; /* Ajusta el tamaño de las imágenes */
+    width: 100px;
     height: auto;
     margin: 10px;
     border-radius: 15px;
-    border: 3px solid #ff69b4; /* Bordes de las imágenes */
+    border: 3px solid #ff69b4;
 }
 
 /* Pie de página */
 .pie-pagina {
-    background-color: #ffb6c1;
+    background-color: rgba(255, 182, 193, 0.8); /* Fondo semitransparente */
     padding: 10px;
     text-align: center;
-    color: white;
-    border-top: 5px solid #ff69b4;
-    font-size: 1rem;
+    color: #fff;
+    border-top: 2px solid #ff69b4;
 }
 
 /* Ajustes para dispositivos móviles */
