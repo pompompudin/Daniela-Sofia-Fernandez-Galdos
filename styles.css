@@ -79,7 +79,17 @@ body {
 .menu-navegacion ul li a:hover {
     border-bottom: 2px solid #ff69b4;
 }
+.gif-img {
+    width: 150px; /* Ajusta el tamaño de los GIFs */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.2s ease-in-out; /* Efecto al pasar el mouse */
+}
 
+.gif-img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
 /* Secciones */
 /* Cuadros de texto con fondo suave y bordes redondeados */
 .seccion {
